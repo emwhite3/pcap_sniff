@@ -1,2 +1,2 @@
-/usr/bin/ar qc libpcap_sniff.a  CMakeFiles/pcap_sniff.dir/library.c.o
+/usr/bin/ar qc libpcap_sniff.a  CMakeFiles/pcap_sniff.dir/library.c.o CMakeFiles/pcap_sniff.dir/sniff.c.o
 /usr/bin/ranlib libpcap_sniff.a

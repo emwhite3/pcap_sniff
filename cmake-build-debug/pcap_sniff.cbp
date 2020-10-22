@@ -82,6 +82,9 @@
 		<Unit filename="/home/emwhite3/CLionProjects/pcap_sniff/library.h">
 			<Option target="pcap_sniff"/>
 		</Unit>
+		<Unit filename="/home/emwhite3/CLionProjects/pcap_sniff/sniff.c">
+			<Option target="pcap_sniff"/>
+		</Unit>
 		<Unit filename="/home/emwhite3/CLionProjects/pcap_sniff/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pcap_sniff.dir/library.c.o"
+  "CMakeFiles/pcap_sniff.dir/sniff.c.o"
   "libpcap_sniff.a"
   "libpcap_sniff.pdb"
 )

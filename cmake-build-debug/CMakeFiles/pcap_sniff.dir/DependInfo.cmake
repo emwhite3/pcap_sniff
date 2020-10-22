@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/emwhite3/CLionProjects/pcap_sniff/library.c" "/home/emwhite3/CLionProjects/pcap_sniff/cmake-build-debug/CMakeFiles/pcap_sniff.dir/library.c.o"
+  "/home/emwhite3/CLionProjects/pcap_sniff/sniff.c" "/home/emwhite3/CLionProjects/pcap_sniff/cmake-build-debug/CMakeFiles/pcap_sniff.dir/sniff.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

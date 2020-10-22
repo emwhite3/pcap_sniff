@@ -90,17 +90,32 @@ CMakeFiles/pcap_sniff.dir/library.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pcap_sniff.dir/library.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/emwhite3/CLionProjects/pcap_sniff/library.c -o CMakeFiles/pcap_sniff.dir/library.c.s
 
+CMakeFiles/pcap_sniff.dir/sniff.c.o: CMakeFiles/pcap_sniff.dir/flags.make
+CMakeFiles/pcap_sniff.dir/sniff.c.o: ../sniff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emwhite3/CLionProjects/pcap_sniff/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pcap_sniff.dir/sniff.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pcap_sniff.dir/sniff.c.o   -c /home/emwhite3/CLionProjects/pcap_sniff/sniff.c
+
+CMakeFiles/pcap_sniff.dir/sniff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pcap_sniff.dir/sniff.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/emwhite3/CLionProjects/pcap_sniff/sniff.c > CMakeFiles/pcap_sniff.dir/sniff.c.i
+
+CMakeFiles/pcap_sniff.dir/sniff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pcap_sniff.dir/sniff.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/emwhite3/CLionProjects/pcap_sniff/sniff.c -o CMakeFiles/pcap_sniff.dir/sniff.c.s
+
 # Object files for target pcap_sniff
 pcap_sniff_OBJECTS = \
-"CMakeFiles/pcap_sniff.dir/library.c.o"
+"CMakeFiles/pcap_sniff.dir/library.c.o" \
+"CMakeFiles/pcap_sniff.dir/sniff.c.o"
 
 # External object files for target pcap_sniff
 pcap_sniff_EXTERNAL_OBJECTS =
 
 libpcap_sniff.a: CMakeFiles/pcap_sniff.dir/library.c.o
+libpcap_sniff.a: CMakeFiles/pcap_sniff.dir/sniff.c.o
 libpcap_sniff.a: CMakeFiles/pcap_sniff.dir/build.make
 libpcap_sniff.a: CMakeFiles/pcap_sniff.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emwhite3/CLionProjects/pcap_sniff/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libpcap_sniff.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emwhite3/CLionProjects/pcap_sniff/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libpcap_sniff.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pcap_sniff.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcap_sniff.dir/link.txt --verbose=$(VERBOSE)
 

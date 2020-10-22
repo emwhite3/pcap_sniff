@@ -170,6 +170,33 @@ library.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcap_sniff.dir/build.make CMakeFiles/pcap_sniff.dir/library.c.s
 .PHONY : library.c.s
 
+sniff.o: sniff.c.o
+
+.PHONY : sniff.o
+
+# target to build an object file
+sniff.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcap_sniff.dir/build.make CMakeFiles/pcap_sniff.dir/sniff.c.o
+.PHONY : sniff.c.o
+
+sniff.i: sniff.c.i
+
+.PHONY : sniff.i
+
+# target to preprocess a source file
+sniff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcap_sniff.dir/build.make CMakeFiles/pcap_sniff.dir/sniff.c.i
+.PHONY : sniff.c.i
+
+sniff.s: sniff.c.s
+
+.PHONY : sniff.s
+
+# target to generate assembly for a file
+sniff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcap_sniff.dir/build.make CMakeFiles/pcap_sniff.dir/sniff.c.s
+.PHONY : sniff.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... library.o"
 	@echo "... library.i"
 	@echo "... library.s"
+	@echo "... sniff.o"
+	@echo "... sniff.i"
+	@echo "... sniff.s"
 .PHONY : help
 
 
